@@ -6,7 +6,67 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "doubleclick.net",
+      "urlFilter": "cdn.oval.id",
+      "resourceTypes": [
+        "image",
+        "script",
+        "xmlhttprequest"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "canyoublockit.com",
+      "resourceTypes": [
+        "image",
+        "script",
+        "xmlhttprequest"
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "static.hotjar.com",
+      "resourceTypes": [
+        "image",
+        "script",
+        "xmlhttprequest"
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "ymatuhin.ru",
+      "resourceTypes": [
+        "image",
+        "script",
+        "xmlhttprequest"
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "adblock-tester.com",
       "resourceTypes": [
         "image",
         "script",
