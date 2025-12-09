@@ -6,7 +6,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "cdn.oval.id",
+      "urlFilter": "region1.analytics.google.com",
       "resourceTypes": [
         "image",
         "script",
@@ -21,7 +21,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "canyoublockit.com",
+      "urlFilter": "tracker.oval.id",
       "resourceTypes": [
         "image",
         "script",
@@ -36,7 +36,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "static.hotjar.com",
+      "urlFilter": "region1.google-analytics.com",
       "resourceTypes": [
         "image",
         "script",
@@ -51,7 +51,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "ymatuhin.ru",
+      "urlFilter": "cdn.oval.id",
       "resourceTypes": [
         "image",
         "script",
@@ -66,7 +66,22 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "adblock-tester.com",
+      "urlFilter": "cdn.jsdelivr.net",
+      "resourceTypes": [
+        "image",
+        "script",
+        "xmlhttprequest"
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "static.hotjar.com",
       "resourceTypes": [
         "image",
         "script",
